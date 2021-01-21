@@ -11,6 +11,8 @@ function countingValleys(steps, path) {
   let altitude = 0;
   // create a previousAlt variable equal to zero
   let previousAlt = 0;
+  // create a valleys variable
+  let valleys = 0;
   // iterate over the path string
   for (let i = 0; i < path.length; i++) {
     // previousAlt equals altitude
